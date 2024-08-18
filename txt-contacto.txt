@@ -1,0 +1,43 @@
+<div class="container"  method="POST" id="contacto">
+    <div class="columns is-multiline">
+      <div class="column has-text-centered is-full">
+        <h1 class="title is-size-3-mobile is-size-1-tablet has-text-weight">Contactame</h1>
+        <h5 class="subtitle is-size-6">Enviame un e-mail</h5>
+      </div>
+      <div class="column">
+        <form action="https://formsubmit.co/julioamaine@gmail.com" method="POST">
+          <div class="columns is-multiline">
+            <div class="column is-half">
+              <div class="field">
+                <label class="label">Nombre Completo</label>
+                <div class="control">
+                  <input name="name" class="is-radiusless is-shadowless input is-medium" type="text" placeholder="Nombre completo">
+                </div>
+              </div>
+              <div class="field">
+                <div class="control">
+                  <labe class="label">Número de teléfono</label>
+                    <input name="phone" class="is-radiusless is-shadowless input is-medium" type="text"
+                      placeholder="Número de telefono">
+                </div>
+              </div>
+            </div>
+            <div class="column is-half">
+              <div class="field">
+                <div class="control">
+                  <label class="label">Correo Electrónico</label>
+                  <input name="email" class="is-radiusless is-shadowless input is-medium" type="email"
+                    placeholder="Correo Electrónico">
+                </div>
+              </div>
+              <div class="field">
+                <div class="control">
+                 <input class="is-radiusless is-shadowless button is-medium is-fullwidth" type="submit" value="Enviar">
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
